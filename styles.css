@@ -1,0 +1,228 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h2, h3{font-weight: 700;}
+
+h2 {
+
+  font-size: 3rem;
+}
+
+h3 {
+
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+#title {
+  background-color: #ff4c68;
+  height: 800px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.homeheading {
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.navbar .navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.navbar .navbar-nav {
+  padding-right: 1rem;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  margin-left: 10%;
+}
+
+/***************************feature***************************/
+
+.icon {
+  color: #ef8172;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.icon.fa-solid:hover {
+  color: #ff4c68;
+}
+
+.feature-p {
+
+  color: #8f8f8f;
+  margin: 0 auto;
+}
+
+#features {
+  margin: 5rem auto;
+  background-color: white;
+}
+.feature-div {
+
+  padding-bottom: 20px;
+}
+
+.feature-border {
+  border-style: none solid none solid;
+  border-width: thin;
+}
+
+/**************testimonial*************************************/
+#testimonials {
+  color: white;
+  background-color: #ef8172;
+}
+
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+
+.carousel-item {
+  padding: 7% 15%;
+
+}
+
+.credits {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/*********************pricing********************************************/
+#pricing {
+  padding: 100px;
+}
+
+.p-body {
+  margin-bottom: 6px;
+}
+
+
+
+
+
+.price-table {
+  padding: 3% 2%;
+}
+
+.mastiff {
+  height: 327.24px;
+}
+
+.p3-body {
+  height: 265.76px;
+}
+
+
+
+
+
+/***********************calltoaction*************************************************************/
+#cta {
+  background-color: #ff4c68;
+  padding: 100px 200px;
+}
+
+.cta-h3 {
+
+  color: white;
+  font-size: 3.7rem;
+}
+
+.cta-btn {
+  margin: 80px 20px;
+}
+
+
+/*********************************footer*******************************************************/
+#footer {
+  padding: 90px 30px;
+
+}
+
+.copyright {
+  color: grey;
+}
+
+.footer-icon{
+  margin: 13px 6px;
+}
+
+/***************************************mediaquery*********************************************/
+@media(max-width:991px) {
+  #title {
+    text-align: center;
+    overflow: visible;
+    height: auto;
+  }
+
+  .feature-border {
+    border-style: solid none solid none;
+    border-width: thin;
+    width: 500px;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .title-img {
+    transform: none;
+  }
+
+  .feature-work {
+    padding-top: 20px;
+  }
+
+  .feature-h3 {
+    font-weight: normal;
+  }
+}
